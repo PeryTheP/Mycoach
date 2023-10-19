@@ -1,0 +1,67 @@
+
+table,  {
+  border:1px solid black;
+margin: 10%;
+}
+td{
+  border:1px solid black;
+
+}
+
+body{font-family: arial;overflow: auto;
+  background-color: #558453;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 37%;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+.titre
+{
+  text-align: center;
+}
+.Sous-titre
+{
+  padding-left: 29%;
+
+}
+.textDesc{
+  padding-left: 19%;
+}
+
+.contenu {
+   text-align: center;
+    overflow: auto; /* Permet à la div de s'adapter à la taille de son contenu */
+}
+
+.imglionel img {
+    max-width:20%; /* Pour empêcher l'image de dépasser sa taille d'origine */
+    height: auto; /* Pour conserver les proportions de l'image */
+    float: right; /* Pour placer l'image à gauche du texte */
+    margin-right: 10%; /* Pour ajouter un espace entre l'image et le texte */
+    padding-left: 20%;
+}
+.tables{
+  padding-left: 10%;
+  padding-right:10% ;
+}
